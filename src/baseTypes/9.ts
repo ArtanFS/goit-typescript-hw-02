@@ -6,7 +6,7 @@ type User = {
   likes: number;
   accounts: string[];
   status: "open" | "close";
-  details?: { createAt: object; updateAt: object };
+  details?: { createAt: Date; updateAt: Date };
 };
 
 const page1: User = {
